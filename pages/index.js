@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col h-full w-full items-center justify-center">
-        <a href="//twitter.com/solstakehouse">
+        <a href="//twitter.com/solstakehouse" target="_blank" rel="noreferrer">
           <div className="border-[1.3em] border-pink-400 pt-1 bg-pink-400 shadow-deep-float rounded mb-6">
             <Image
               objectPosition="center"
