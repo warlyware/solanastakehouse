@@ -10,16 +10,18 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col h-full w-full items-center justify-center">
-        <div className="border-[1.3em] border-pink-400 pt-1 bg-pink-400 shadow-deep-float rounded mb-6">
-          <Image
-            objectPosition="center"
-            objectFit="stretch"
-            src="/images/mini-steak-sol.png"
-            height="500"
-            width="500"
-            alt="steak"
-          />
-        </div>
+        <a href="//twitter.com/solstakehouse">
+          <div className="border-[1.3em] border-pink-400 pt-1 bg-pink-400 shadow-deep-float rounded mb-6">
+            <Image
+              objectPosition="center"
+              objectFit="stretch"
+              src="/images/mini-steak-sol.png"
+              height="500"
+              width="500"
+              alt="steak"
+            />
+          </div>
+        </a>
 
         <h1 className="text-7xl sm:text-8xl font-bold text-center text-yellow-500 tracking-[1em] -mr-24 sm:-mr-28">
           yum.
