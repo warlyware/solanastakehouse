@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col h-full w-full items-center justify-center">
-        <div className="border-[1.3em] border-pink-400 pt-1 bg-pink-400">
+        <div className="border-[1.3em] border-pink-400 pt-1 bg-pink-400 shadow-deep-float rounded">
           <Image
             objectPosition="center"
             objectFit="stretch"
@@ -21,7 +21,7 @@ export default function Home() {
           />
         </div>
 
-        <h1 className="text-7xl sm:text-8xl font-bold text-center text-yellow-500 tracking-[1em] -mr-24">
+        <h1 className="text-7xl sm:text-8xl font-bold text-center text-yellow-500 tracking-[1em] -mr-24 sm:-mr-28">
           yum.
         </h1>
       </main>
